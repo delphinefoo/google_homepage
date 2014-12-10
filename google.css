@@ -1,0 +1,97 @@
+.navbar {
+    float: right;
+}
+
+#name {
+    position: relative;
+    top: -12px;
+    right: 80px;
+}
+
+#Gmail {
+    position: relative;
+    top: -12px;
+    right: 68px;
+}
+
+#Images {
+    position: relative;
+    top: -12px;
+    right: 55px;
+}
+
+#apps {
+    position: relative;
+    right: 40px;
+    top: -2px;
+}
+
+#bell {
+    position: relative;
+    right: 30px;
+}
+
+#square {
+    position: relative;
+    right: 20px;
+}
+
+#avatar {
+    position: relative;
+    right: 13px;
+    top: 7px;
+}
+.navbar a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 13px;
+    color: #2e2e2e;
+}
+
+.search_area img {
+    height: 95px;
+    position: absolute;
+    left: 477px;
+    top: 193px;
+}
+
+input[type="text"] {
+    position: absolute;
+    left: 325px;
+    top: 312px;
+    line-height: 2.4em;
+    border: 1px solid blue;
+    background-image: url(https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/Microphone_1.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: right;
+}
+
+input[value="Google Search"] {
+    width: 95px;
+    height: 30px;
+    border: 1px solid #e6e6e6;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    border-radius: 2px;
+    font-family: Arial;
+    color: #2e2e2e;
+    position: absolute;
+    left: 500px;
+    top: 355px;
+
+}
+
+input[value="I'm Feeling Lucky"] {
+    width: 110px;
+    height: 30px;
+    border: 1px solid #e6e6e6;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    border-radius: 2px;
+    font-family: Arial;
+    color: #2e2e2e;
+    position: absolute;
+    left: 610px;
+    top: 355px;
+}
